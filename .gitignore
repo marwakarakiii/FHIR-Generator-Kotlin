@@ -1,0 +1,74 @@
+# ======================================
+# ✅ Android/Kotlin/.gradle specific
+# ======================================
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local config
+local.properties
+.idea/
+*.iml
+
+# Kotlin/Jetpack Compose cache
+.kotlinc/
+.kotlin_module/
+.cache/
+captures/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Android Studio specific
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/compiler.xml
+
+# Android Emulator
+*.hprof
+*.hproflog
+
+# JetBrains IDEs
+*.iws
+*.ipr
+*.iml
+out/
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Keystore files (⚠️ DO NOT commit these)
+*.jks
+*.keystore
+key.properties
+
+# Crash reports
+crashlytics-build.log
+
+# Firebase/Google services (generated)
+google-services.json
+
+# Compose previews
+.idea/compose-preview/
+
+# Optional: VS Code
+.vscode/
+
+# Optional: MacOS/Linux swap/temp
+*.swp
+*~
